@@ -3,7 +3,7 @@
 
 ## About Me
 
-Hello! I’m Joelee D. Tuvera, a BS Information Technology student. I have an interest in UI/UX design and enjoy discovering new concepts and technologies related to Information Technology.
+Hi! I’m Joelee D. Tuvera, a BS Information Technology student. I am interested in UI/UX design and enjoy exploring new topics related to Information Technology.
 
 ## About This Repository
 
