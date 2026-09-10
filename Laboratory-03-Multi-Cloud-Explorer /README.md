@@ -5,11 +5,11 @@
 
 ## Mission Overview
 
-This laboratory activity explores three major public cloud providers: **Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)**. The goal is to compare their infrastructure, management consoles, core services, advantages, and common enterprise use cases.
+This laboratory activity explores three major public cloud providers: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). The purpose of this activity is to compare their services, infrastructure, management consoles, advantages, and common business uses.
 
-The activity also uses Linux commands in KillerCoda to identify basic server information and match a Linux server with equivalent cloud compute services.
+The activity also includes a Linux server investigation using the KillerCoda Playground. Basic Linux commands were used to identify the operating system, CPU information, memory information, and disk space.
 
-## Portfolio Structure
+## Folder Structure
 
 ```text
 Laboratory-03-Multi-Cloud-Explorer/
