@@ -22,3 +22,4 @@ This laboratory activity focuses on cloud-native computing and containerization.
 
 ```bash
 docker --version
+docker info
