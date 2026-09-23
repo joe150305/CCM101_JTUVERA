@@ -56,8 +56,8 @@ I then uploaded a sample file into the bucket to verify that the object storage 
 
 ### MinIO Deployment
 
-![MinIO Deployed](screenshots/minio-deployed.png)
+![MinIO Deployed](screenshot/minio-deployed.png)
 
 ### Bucket and Uploaded File
 
-![MinIO Bucket Upload](screenshots/minio-bucket-upload.png)
+![MinIO Bucket Upload](screenshot/minio-bucket-upload.png)
