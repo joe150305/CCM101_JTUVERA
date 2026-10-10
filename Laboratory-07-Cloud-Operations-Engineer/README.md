@@ -1,32 +1,47 @@
-
-# Laboratory 07 – Cloud Operations Engineer
+# Laboratory Activity 7: The Cloud Operations Engineer
 
 ## Mission Overview
 
-This laboratory focuses on cloud operations, observability, monitoring, application logging, and container performance. The activity uses a Linux server and Docker to monitor system resources, deploy an Nginx web server, generate web traffic, analyze application logs, and monitor container resource usage.
+This laboratory activity focuses on monitoring a Linux host and observing the performance of a containerized web server. Using KillerCoda and Docker, I checked system resources, deployed Nginx, generated HTTP requests, examined application logs, and monitored container metrics.
 
 ## Objectives
 
-- Monitor Linux CPU, memory, and disk resources.
-- Establish a baseline for the host system.
-- Deploy an Nginx web server using Docker.
-- Generate HTTP requests and errors.
+- Check host memory and disk capacity.
+- Observe CPU usage and running processes.
+- Deploy an Nginx container.
+- Generate successful and failed HTTP requests.
 - Analyze Docker application logs.
-- Monitor real-time container resource usage.
-- Document cloud operations findings using Markdown.
+- Monitor container CPU, memory, and network usage.
+- Document results using Markdown.
 
 ## Monitoring Commands Executed
 
-The following commands were used during the laboratory:
+| Command | Purpose |
+|---|---|
+| `free -h` | Check memory usage |
+| `df -h /` | Check root filesystem capacity |
+| `top` | Monitor CPU and running processes |
+| `docker ps` | View running containers |
+| `docker run -d --name client-website -p 8080:80 nginx` | Deploy Nginx |
+| `curl -i http://localhost:8080` | Test successful HTTP requests |
+| `curl -i http://localhost:8080/hidden-admin-page` | Generate an HTTP 404 response |
+| `docker logs client-website` | View application logs |
+| `docker stats` | Monitor container resource usage |
 
-```bash
-free -h
-df -h
-top
-docker run -d --name client-website -p 8080:80 nginx
-curl http://localhost:8080
-curl http://localhost:8080
-curl http://localhost:8080
-curl http://localhost:8080/hidden-admin-page
-docker logs client-website
-docker stats
+## Skills Learned
+
+- Linux system monitoring
+- Docker container deployment
+- HTTP request testing
+- Application log analysis
+- Real-time resource monitoring
+- Technical documentation using Markdown
+- GitHub portfolio management
+
+## Evidence
+
+Screenshots of the terminal outputs are stored in the `screenshots/` folder.
+
+## Conclusion
+
+This activity demonstrated how Linux commands and Docker tools help engineers monitor server health, troubleshoot web application errors, and evaluate container resource consumption.
