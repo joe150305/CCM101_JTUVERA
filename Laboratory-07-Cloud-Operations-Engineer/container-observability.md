@@ -1,14 +1,10 @@
+## Real-Time Container Metrics
 
-# Container Observability Report
+- **Container Name:** client-website
+- **Memory Usage:** [Enter your actual memory usage]
+- **CPU Usage:** [Enter your actual CPU percentage]
+- **Network I/O:** [Enter the values shown, if required]
 
-## Application Logs
+### Analysis
 
-### HTTP 404 Error Log
-
-```text
-[Paste the actual 404 log line from docker logs client-website]
-```
-
-### Why Application Logs Matter
-
-Application logs help identify errors, failed requests, and unusual application behavior. They provide details that help engineers investigate problems and determine what needs to be fixed.
+Docker stats provides real-time information about container resource consumption. These metrics help engineers identify excessive CPU usage, memory pressure, and unusual network activity.
