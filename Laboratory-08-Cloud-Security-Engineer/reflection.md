@@ -1,1 +1,11 @@
+# Mission Reflection
 
+Completing Laboratory Activity 8 helped me understand the importance of securing a cloud server before making it available to users. A host-based firewall provides an additional layer of protection by controlling network traffic entering and leaving a server. Even if the physical network perimeter is breached, firewall rules can still restrict unauthorized connections to the individual machine. However, a firewall must be configured correctly and combined with other security measures.
+
+Managing open network ports is critical because every unnecessary port can create another possible entry point for attackers. Services that are not required should not be exposed. By applying the Default Deny policy, incoming traffic is blocked unless an explicit rule permits it. In this activity, SSH was allowed for remote administration, and TCP port 8080 was allowed for the Nginx web application. This demonstrated how specific rules can provide access to necessary services while limiting other incoming connections.
+
+In a real enterprise environment, leaving MySQL port 3306 open to the public internet is dangerous. Attackers could attempt password guessing, exploit software vulnerabilities, or target improperly configured database services. If successful, they might access, modify, or delete sensitive information. Database access should instead be restricted to trusted application servers or authorized networks, with strong authentication and encrypted connections where appropriate.
+
+This mission changed my perspective by showing me that deploying an application is not enough to make a server secure. A working application may still have unnecessary exposure if its network access is not properly controlled. I also learned that firewall behavior should be tested instead of assumed, especially when Docker manages published ports.
+
+With eight completed missions, my GitHub cloud computing portfolio represents my progress in learning infrastructure, deployment, operations, and security. It also gives me a place to organize my documentation and practical evidence. I can use these experiences to improve my technical skills and develop better security practices for future IT projects.
